@@ -1,0 +1,82 @@
+VER 3 0100000000000014 "A1" "INV_MISC_QUESTIONMARK"
+#showtooltip Shadow Dance
+/target Arena1
+END
+VER 3 0100000000000015 "A2" "INV_MISC_QUESTIONMARK"
+#showtooltip Shadow Dance
+/target arena2
+END
+VER 3 0100000000000016 "A3" "INV_MISC_QUESTIONMARK"
+#showtooltip Shadow Dance
+/target arena3
+END
+VER 3 0100000000000012 "ds" "INV_Misc_QuestionMark"
+#showtooltip Dismantle
+/cast [mod:shift,@focus,exists][nomod]Dismantle
+END
+VER 3 010000000000000B "ENEMY FRAMESH" "INV_MISC_QUESTIONMARK"
+/cast Vendetta
+/use Cataclysmic Gladiator's Badge of Conquest
+END
+VER 3 0100000000000005 "f1" "INV_MISC_QUESTIONMARK"
+#showtooltip Cloak of Shadows
+/Focus [target=arena1] 
+END
+VER 3 0100000000000006 "f2" "INV_MISC_QUESTIONMARK"
+#showtooltip Cloak of Shadows
+/Focus [target=arena2] 
+END
+VER 3 0100000000000007 "f3" "INV_MISC_QUESTIONMARK"
+#showtooltip Cloak of Shadows
+/Focus [target=arena3] 
+END
+VER 3 0100000000000011 "kick" "INV_Misc_QuestionMark"
+#showtooltip Kick
+/cast [mod:shift,@focus,exists][nomod]Kick
+END
+VER 3 0100000000000004 "RD" "INV_Misc_QuestionMark"
+/castsequence [@focus,exists] reset=5 Redirect,Kidney Shot
+/cast [target=focus] Kidney Shot
+/timer 25
+/timer play
+END
+VER 3 0100000000000003 "S" "ability_rogue_energeticrecovery"
+#showtooltip Shadow Dance
+/cancelaura Subterfuge
+/use Tyrannical Gladiator's Leather Gloves
+/cast Shadow Dance
+/cast Premeditation
+END
+VER 3 0100000000000013 "s" "INV_Misc_QuestionMark"
+#showtooltip Shiv
+/cast [mod:shift,@focus,exists][nomod]Shiv
+END
+VER 3 010000000000000F "s" "INV_Misc_QuestionMark"
+#showtooltip Stealth
+/stopattack
+/cast !Stealth
+END
+VER 3 0100000000000017 "S1" "INV_MISC_QUESTIONMARK"
+#showtooltip Kick
+/cast [@Arena1] Sap
+END
+VER 3 0100000000000018 "S2" "INV_MISC_QUESTIONMARK"
+#showtooltip Kick
+/cast [@Arena2] Sap
+END
+VER 3 0100000000000019 "S3" "INV_MISC_QUESTIONMARK"
+#showtooltip Stealth
+/cast [@Arena3] Sap
+END
+VER 3 010000000000001B "sb" "INV_MISC_QUESTIONMARK"
+#showtooltip Shadow Blades
+/use Tyrannical Gladiator's Leather Gloves
+/cancelaura Shuriken Toss
+/cast Shadow Dance
+/cast Shadow Blades
+/cast Premeditation
+END
+VER 3 010000000000000D "sh" "INV_Misc_QuestionMark"
+#showtooltip Shadowstep
+/cast [mod:shift,@focus,exists][nomod]Shadowstep
+END
